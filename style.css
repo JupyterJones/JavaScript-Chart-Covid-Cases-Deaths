@@ -1,0 +1,82 @@
+body {
+  font-family: 'Roboto';
+  color: #8d2000;
+  background-color: #1da600;
+
+  }
+
+#wrapper{
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom: 20px;
+  width:94%;
+  min-height:1200px;
+  border: 1px solid;
+  padding: 10px;
+  background-color: #efefef;
+  box-shadow: -5px 10px #242424;
+}
+#wrapper h1{
+  text-align: center;
+  font-size: 2.5vw;
+  text-shadow: -3px 5px 3px rgba(150, 150, 150, 1);
+}
+
+#wrapper h3{
+  text-align: center;
+  font-size: 2vw;
+  text-shadow: -3px 5px 3px rgba(150, 150, 150, 1);
+
+}
+#title {
+  font-family: 'Merriweather';
+  font-weight: bold;
+  text-align: center;
+  padding: 30px;
+  font-size: 2.75vw;
+  letter-spacing: -0.01em;
+  color: #8d2000;
+}
+
+#legend {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 10px 10px;
+  font-size: 12px;
+}
+
+#legend .item {
+  line-height: 12px;
+  padding: 0 10px 0 4px;
+}
+
+#legend .item.male {
+  border-left: 12px solid #f9c40c;
+}
+
+#legend .item.female {
+  border-left: 12px solid #F15F36;
+}
+
+
+#chart-wrapper {
+  height: 1000px;
+}
+
+#footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10px;
+  color: #aaa;
+  font-size: 12px;
+}
+
+#footer a {
+  color: #aaa;
+}
+
+.chart-wrapper {
+  border: 1px solid black
+  height: 1000px;
+}
+
