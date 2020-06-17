@@ -76,7 +76,22 @@ body {
 }
 
 .chart-wrapper {
-  border: 1px solid black
+  border: 1px solid black;
   height: 1000px;
 }
 
+.chartwrapper {
+  position: relative;
+  height:100vh;
+  width:80vw;
+  border: 1px solid black;
+}
+
+.chart-wrapper{
+  position: relative;
+  height:100vh; width:80vw;
+}
+
+.wht{
+  background-color: #000;
+}

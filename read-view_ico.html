@@ -1,0 +1,16 @@
+<script>
+function readURL(el) {
+    if (el.files && el.files[0]) {
+         var FR= new FileReader();
+         FR.onload = function(e) {
+              $("img").attr("src", e.target.result);
+              socket.emit('image', e.target.result);
+              console.log(e.target.result);
+         };       
+         FR.readAsDataURL( el.files[0] );
+    } 
+};
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<input id="file" type='file' onchange="readURL(this)"/>
+<img id="img">
